@@ -17,6 +17,8 @@ header {
   text-align: center;
 }
 
+main, section, aside { padding: 0 10px; }
+
 nav {
   border-top: 1px solid grey;
   border-bottom: 1px solid grey;
@@ -24,13 +26,6 @@ nav {
 }
 
 nav a { padding: 0 5px; } 
-
-main {
-  padding: 20px 5px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
 
 footer {
   position: absolute;
