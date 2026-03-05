@@ -3,18 +3,39 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: #18181B;
+  background-color: #37353E;
   color: #FAFAFA;
+  letter-spacing: 0.5px;
 }
 
-header, footer {
-  border: 1px solid #FFF;
-}
+h1 { color: #A78BFA; }
+a { color: #8BAE66; }
+a:visited { color: #628141; }
+
 
 header {
   text-align: center;
 }
 
-h1 {
-  color: #A78BFA;
+nav {
+  border-top: 1px solid grey;
+  border-bottom: 1px solid grey;
+  padding: 10px 0; 
+}
+
+nav a { padding: 0 5px; } 
+
+main {
+  padding: 20px 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  padding: 0 5px;
+  font-size: 10px;
+  letter-spacing: 1px;
 }
